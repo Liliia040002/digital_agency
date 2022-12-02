@@ -1,0 +1,652 @@
+
+body {
+    background: url(../img/back/Agency-Web-design.png) center center/cover no-repeat;
+    
+}
+header {
+    padding-top: 40px;
+}
+header .row {
+    align-items: center;
+}
+.logo {
+    width: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 0px;
+    padding-left: 0px;
+} 
+.menu_item {
+    list-style-type: none;
+}
+.menu_item a {
+    color: black;
+    text-decoration: none;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.menu_item a:hover {
+    color: #FD695A;
+}
+
+.col-md-3 {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 137px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: rgba(253, 105, 90, 1);
+
+    text-align: center;
+   
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.promo {
+    margin-top: 70px;
+}
+
+.row {
+    align-items: flex-start;
+}
+
+.promo_title {
+    font-family: "Mulish", sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 76px;
+    color: rgb(0, 0, 0);
+}
+
+span {
+    color: rgba(253, 105, 90, 1);
+}
+
+.description {
+    margin-top: 40px;
+    font-family: "Mulish", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #3D3D3F;
+}
+
+.cta {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cta button {
+    width: 155px;
+    height: 65px;
+    border-radius: 50px;
+    border: 0px;
+
+    font-size: 18px;
+    
+}
+
+.cta button:hover {
+    background-color: white;
+    color: #FD695A;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.062);
+}
+
+.watch {
+    margin-left: 50px;
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+}
+
+.play {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.play:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.062);
+}
+
+.play img {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 50px;
+}
+
+/* .watch img {
+    border-radius: 50%;
+} */
+
+/* .watch img:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+} */
+
+
+.watch p {
+    margin-left: 10px;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #FD695A;
+}
+
+.col-md-6 img {
+    width: 100%;
+}
+
+.clients {
+    margin-top: 100px;
+}
+
+.clients p {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: rgb(32, 32, 32);
+}
+
+.clients_item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.clients_item li {
+    list-style-type: none;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box div {
+    width: 268px;
+    height: 268px;
+    border-radius: 15px;
+    background-color: rgb(95, 95, 95);
+    ;
+}
+
+.what-we-do {
+    margin-top: 120px;
+}
+
+.what-we-do .row {
+    align-items: center;
+}
+
+.name_sec {
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 50px;
+    color: rgba(253, 105, 90, 1);
+    
+}
+
+.proposition_sec {
+    margin-top: 36px;
+    font-family: "Mulish", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.description_sec {
+    margin-top: 50px;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+} 
+
+.what-we-do button {
+    margin-top: 40px;
+    width: 203px;
+    height: 50px;
+    border-radius: 50px;
+
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.what-we-do button:hover {
+    background-color: white;
+    color: #FD695A;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.062);
+    
+}
+
+.box {
+    flex-wrap: wrap;
+}
+.box div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    background-color: white;
+}
+
+.box div:hover {
+    border-bottom:5px solid rgba(253, 105, 90, 1);
+}
+
+.box div {
+    vertical-align: middle;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.box div img {
+    width: 71px;
+    height: 71px;
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
+    margin-bottom: 8px;
+}
+
+.desc {
+    font-family: "Mulish", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 12px;
+
+    color: rgba(116, 116, 116, 1);
+
+}
+
+.box a {
+    font-family: "Mulish", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+
+    color: #3D3D3F;
+}
+
+.box a:hover {
+    color: #FD695A;
+}
+
+.about_us {
+    margin-top: 160px;
+}
+
+.about_us .row {
+    align-items: center;
+}
+
+.about_us button {
+    margin-top: 25px;
+    width: 174px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.about_us button:hover {
+    background-color: white;
+    color: #FD695A;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.062);
+}
+
+.our_work {
+    margin-top: 160px;
+}
+
+.our_work .proposition_sec {
+    margin-top: 0px;
+}
+.our_work ul {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.sub_menu {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.sub_menu .list {
+    width: 70%;
+}
+.our_work ul li {
+    list-style-type: none;
+}
+
+.our_work ul li a {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-decoration: none;
+    color: #848181;
+}
+
+.our_work ul li a:hover {
+    color: #FD695A;
+    text-decoration: underline;
+} 
+
+.expolore {
+    vertical-align: middle;
+}
+
+.more {
+    text-decoration: none;
+    color: black;
+}
+
+.more:hover {
+    color: #FD695A;
+}
+
+.expolore .more img:hover {
+    background-color: #FD695A;
+}
+
+.testimonial {
+    margin-top: 160px;
+}
+
+.name_sec {
+    text-transform: uppercase;
+}
+.proposition_sec {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: 500px;
+    
+}
+
+.testimonial .row {
+    align-items: center;
+}
+
+.feedback {
+    width: 516px;
+    height: 304px;
+    border-radius: 30px;
+    padding: 41px;
+    background-color: white;
+}
+
+.feedback_title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 35px;
+}
+
+.user_title {
+    margin-left: 15px;
+}
+.user_title_name {
+    margin-bottom: 5px;
+    font-family: "Mulish", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
+.user_title_company {
+    margin-bottom: 0px;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:  rgba(0, 0, 0, 0.6);
+}
+
+.feedback_description {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgba(117, 117, 117, 1);
+
+}
+
+.user img {
+    width: 86px;
+    height: 86px;
+}
+.col-md-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.testimonial .col-md-2 div {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    
+    margin-bottom: 30px;
+    margin-right: 0px;
+} 
+
+.testimonial .next {
+    background-color: #FD695A;
+    padding: 5px;
+}
+
+.testimonial .next:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.062);
+}
+
+.testimonial .next img {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.testimonial .previous {
+    background-color: white;
+    padding: 5px;
+}
+
+.testimonial .previous:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.062);
+}
+
+.testimonial .previous img {
+    width: 35px;
+    height: 35px;
+    
+}
+
+.testimonial .col-md-5 img{
+    width: 100%;
+} 
+
+
+
+.forehead {
+    width: 82%;
+    height: 300px;
+    margin-top: 115px;
+    
+    
+    position: absolute;
+    left: 10%;
+    background-color: rgba(255, 255, 255, 0.312);
+    border: rgb(255, 255, 255) 4px solid;
+    border-radius: 15px;
+}
+
+.back {
+    position: relative;
+    
+    width: 80%;
+    margin: 0 auto;
+    min-height: 284px;
+    
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.cta_desc {
+    margin-bottom: 50px;
+}
+footer {
+    margin-top: 120px;
+} 
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_menu ul li a {
+    text-decoration: none;
+    color: rgba(102, 102, 102, 1);
+}
+
+.footer_menu ul li a:hover{
+    color: #FD695A;
+}
+
+.footer_menu ul li {
+    margin-bottom: 20px;
+    list-style-type: none;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(102, 102, 102, 1);
+
+}
+
+.footer_menu ul li:hover {
+    color: #FD695A;
+}
+
+.footer_menu .contact li div {
+    display: flex;
+}
+
+.footer_menu .contact li div img {
+    width: 24px;
+    height: 24px;
+
+    margin-right: 10px;
+}
+
+
+
+.footer_menu img {
+    width: 190px;
+    height: 40px;
+}
+
+.footer_menu .title {
+    margin-bottom: 30px;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #3D3D3F; 
+}
+
+.newsletter input {
+    width: 196px;
+    height: 50px;
+    border-radius: 8px;
+
+    padding: 5px;
+
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999999; 
+}
+.newsletter button {
+    width: 162px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.newsletter button:hover {
+    background-color: white;
+    color: #FD695A;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.062);
+
+}
+
+.footer_submenu {
+    min-height: 84px;
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #999999;
+}
+
+.low {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.low li {
+    list-style-type: none;
+}
+
+.low li a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.reserved {
+    color: #999999; 
+}
